@@ -9,15 +9,10 @@
  Telegram: @Jean_Yess
 
 ***
-# Briefly About Myself:
-
-
-
-
-
-
-
-
+# About Myself:
+My goal is to learn everything new and exciting. I love to code and coffee.
+My core strengths are in problem solving and fast learning(not always).
+I want to get knowledge and skills that will be enough for employment in a company.
 ***
 # Skills and Proficiency:
 - HTML
