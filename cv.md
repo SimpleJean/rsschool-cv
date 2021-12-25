@@ -51,3 +51,6 @@ new foo();        // undefined
 - FreeCodeCamp Responsive Web Design 
 - FreeCodeCamp JavaScript Algorithms and Data Structures
 
+# English
+
+B1 (I have some speaking practice, but not with native speakers).
