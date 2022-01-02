@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>RSSchool CV</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <ul class="navigation">
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#edu">Education</a></li>
+          <li><a href="#course">Courses</a></li>
+          <li><a href="#code-exemple">Code example</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </header>
+      <div class="wrapper-container">
+        <div class="left-column">
+          <div>
+            <img
+              class="kote"
+              src="./assets/img/kote.jpg"
+              alt="profile_image"
+              width="250"
+              height="320"
+            />
+            <h1>Zhan Yessimbekov</h1>
+            <hr />
+            <main>
+              <h2>Contact information:</h2>
+              <div class="contacts">
+                <div class="contacts-items">
+                  <div class="contacts-items__image">
+                    <div class="contacts-items__image1"></div>
+                    <div class="contacts-items__image2"></div>
+                    <div class="contacts-items__image3"></div>
+                    <div class="contacts-items__image4"></div>
+                  </div>
+                  <div class="contacts-items__info">
+                    <div class="contacts-items__telephone">+548 654 215</div>
+                    <div class="contacts-items__email">
+                      zhan.yessim@gmail.com
+                    </div>
+                    <div class="contacts-items__telegram">@Jean_Yess</div>
+                    <div class="contacts-items__discord">SimpleJean#7616</div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="skills">
+                <h2>Skills and Proficiency:</h2>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Git</li>
+                  <li>React (Basic knowledge)</li>
+                </ul>
+                <div class="codewars-img">
+                  <img
+                    src="https://www.codewars.com/users/SimpleJean/badges/small"
+                    alt="codewars"
+                  />
+                </div>
+              </div>
+              <hr />
+              <section>
+                <h2>Languages</h2>
+                <ul>
+                  <li>Russian native</li>
+                  <li>English B1</li>
+                </ul>
+              </section>
+            </main>
+          </div>
+        </div>
+        <div class="right-column">
+          <section class="right-column__about" id="about-me">
+            <h2>About Myself</h2>
+            <p>
+              My goal is to learn everything new and exciting. I love to code
+              and coffee. My core strengths are in problem solving and fast
+              learning (not always). I want to get knowledge and skills that
+              will be enough for employment in a company.
+            </p>
+          </section>
+          <hr />
+          <section class="right-column__knowledge" id="edu">
+            <h2>Education</h2>
+            <h3>Turan University</h3>
+            <p>The Faculty of Economics</p>
+            <p>Years: 2010 -2014</p>
+            <p>Specialization: Logistics</p>
+            <hr />
+            <h2 id="course">Courses</h2>
+            <h3>FreeCodeCamp JavaScript Algorithms and Data Structures</h3>
+            <p>
+              I learned how to use JavaScript Algorithms and Data Structures
+            </p>
+            <h3>FreeCodeCamp Responsive Web Design</h3>
+            <p>
+              I learned how to use CSS Grid and Flexbox to create responsive
+              websites.
+            </p>
+            <h3>Front End Development Libraries</h3>
+            <p>
+              I learned how to use React, Redux, and Bootstrap to create
+              responsive websites.
+            </p>
+          </section>
+          <hr />
+          <section class="right-column__code" id="code-exemple">
+            <h2>Code example:</h2>
+            <pre><code>
+            function foo() { 
+                console.log( this.bar ); 
+            } 
+
+            const bar = "global";
+            
+            const obj1 = { 
+                bar: "obj1",
+                foo: foo 
+            }; 
+
+            const obj2 = { 
+                bar: "obj2"
+            }; 
+
+            foo();              // "global" 
+            obj1.foo();        // "obj1" 
+            foo.call( obj2 ); //"obj2" 
+            new foo();       // undefined
+          </code></pre>
+          </section>
+          <hr />
+          <section class="right-column__projects" id="projects">
+            <h2>Projects</h2>
+            <a href="https://github.com/SimpleJean/aviatickets" target="_blank"
+              >1. Simple flight search app</a
+            >
+            <a
+              href="https://github.com/SimpleJean/Cryptonomicon"
+              target="_blank"
+              >2. Cryptonomicon</a
+            >
+          </section>
+        </div>
+      </div>
+      <footer class="footer">
+        <div>
+          <a href="https://github.com/SimpleJean" target="_blank"
+            ><img src="./assets/img/github.png" alt="github" width="35"
+          /></a>
+        </div>
+        <div style="font-weight: 900">2022</div>
+        <div>
+          <a href="https://rs.school/js/" target="_blank"
+            ><img src="./assets/img/rs_school_js.svg" alt="" width="50"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
